@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Dark">
+        <g id="BG-Dark" serif:id="BG Dark" transform="matrix(0.928068,0,0,0.928068,-7.14604,-8.96873)">
+            <circle cx="48.091" cy="50.327" r="37.637" style="fill:rgb(39,39,39);"/>
+        </g>
+        <g id="Intro" transform="matrix(1,0,0,1,9.1372,9.1372)">
+            <path d="M28.5,0C12.75,0 0,12.75 0,28.5C0,44.25 12.75,57 28.5,57C44.25,57 57,44.25 57,28.5C57,12.75 44.25,0 28.5,0ZM27,7.5C29.1,7.5 30.75,9.15 30.75,11.25C30.75,13.35 29.1,15 27,15C24.9,15 23.25,13.35 23.25,11.25C23.25,9.15 24.9,7.5 27,7.5ZM36,49.5L21,49.5L21,45L26.25,45L26.25,22.5L21.75,22.5L21.75,18L30.75,18L30.75,45L36,45L36,49.5Z" style="fill:rgb(158,158,158);"/>
+        </g>
+    </g>
+</svg>

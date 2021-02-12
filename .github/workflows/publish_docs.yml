@@ -1,0 +1,26 @@
+name: Build and publish Gatsby docs to GitHub pages
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - name: Install and Build
+        working-directory: ./documentation
+        run: |
+          npm install
+          npm run build
+
+      - name: Copy static assets
+        run: |
+          cp -R ./storylines ./documentation/public/storylines
+          cp -R ./deployment ./documentation/public/deployment
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./documentation/public
+
