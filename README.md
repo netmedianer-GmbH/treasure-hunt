@@ -1,1 +1,1 @@
-# gatsby-publish-ghpages
+# Treasure Hunt
