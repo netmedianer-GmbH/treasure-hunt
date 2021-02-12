@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Contrast">
+        <g id="BG-Dark" serif:id="BG Dark" transform="matrix(0.928068,0,0,0.928068,-7.14604,-8.96873)">
+            <circle cx="48.091" cy="50.327" r="37.637" style="fill:rgb(39,39,39);"/>
+        </g>
+        <g id="Help" transform="matrix(1,0,0,1,9.1372,9.1372)">
+            <path d="M28.5,4.5C15.225,4.5 4.5,15.225 4.5,28.5C4.5,41.775 15.225,52.5 28.5,52.5C41.775,52.5 52.5,41.775 52.5,28.5C52.5,15.225 41.775,4.5 28.5,4.5ZM28.5,57C12.75,57 0,44.25 0,28.5C0,12.75 12.75,0 28.5,0C44.25,0 57,12.75 57,28.5C57,44.25 44.25,57 28.5,57Z" style="fill:rgb(255,255,0);"/>
+            <g transform="matrix(1,0,0,1,0,-1)">
+                <path d="M43,23L34,23L34,14C34,12.35 32.65,11 31,11L25,11C23.35,11 22,12.35 22,14L22,23L13,23C11.35,23 10,24.35 10,26L10,32C10,33.65 11.35,35 13,35L22,35L22,44C22,45.65 23.35,47 25,47L31,47C32.65,47 34,45.65 34,44L34,35L43,35C44.65,35 46,33.65 46,32L46,26C46,24.35 44.65,23 43,23Z" style="fill:rgb(255,255,0);"/>
+            </g>
+        </g>
+    </g>
+</svg>

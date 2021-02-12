@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Contrast">
+        <g id="BG-Dark" serif:id="BG Dark" transform="matrix(0.928068,0,0,0.928068,-7.14604,-8.96873)">
+            <circle cx="48.091" cy="50.327" r="37.637" style="fill:rgb(39,39,39);"/>
+        </g>
+        <g id="Learnings-Dark" serif:id="Learnings Dark" transform="matrix(0.632864,0,0,0.632864,11.4762,14.3999)">
+            <path d="M79,26.063L74.178,24.294L74.178,14.148L79,12.101L46.362,-0L6.676,13.962C2.874,15.824 2.782,20.943 2.782,25.132C2.782,26.528 2.967,27.924 3.245,29.228C0.093,31.275 0,36.023 0,40.025C0,43.283 0.742,46.262 2.782,48.123C2.318,49.706 2.596,51.66 2.596,53.987C2.596,58.176 3.709,61.992 7.418,63.296L33.195,74L78.815,55.011L73.993,53.243L73.993,43.004L78.815,40.956L71.397,38.163L71.397,29.228L79,26.063ZM7.789,20.478L33.566,30.624L70.562,15.638L70.562,23.643L33.566,39.094L7.789,28.855L7.789,20.478ZM70.377,52.591L33.38,67.95L7.511,57.711L7.511,50.45L30.599,59.945L70.47,44.121L70.377,52.591ZM67.781,38.629L30.784,53.987L5.007,43.748L5.007,35.371L31.526,45.982L67.873,30.717L67.873,38.629L67.781,38.629Z" style="fill:rgb(255,255,0);"/>
+        </g>
+    </g>
+</svg>
