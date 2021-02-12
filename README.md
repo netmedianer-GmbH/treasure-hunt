@@ -1,1 +1,1 @@
-# Treasure Hunt
+# Welcome to the Treasure Hunt PowerApp
