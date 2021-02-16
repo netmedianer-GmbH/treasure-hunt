@@ -20,7 +20,9 @@ export default () => (
             Learn how to use Microsoft 365 together with your colleagues in a playful way
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg" onClick={ () => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank")}>Get Started</Button>
+            <Button size="lg" onClick={ () => {window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank"); return false;} }>
+              Get Started
+            </Button>
           </p>
           <p className="mt-4 text-gray-600">Get started with the installation</p>
         </div>
