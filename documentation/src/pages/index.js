@@ -20,6 +20,12 @@ export default () => (
             Learn how to use Microsoft 365 together with your colleagues in a playful way
           </p>
           <p className="mt-8 md:mt-12">
+          <button 
+            type="button"
+            className="py-4 px-12 bg-primary hover:bg-primary-darker rounded text-white"
+            onClick={() => {window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank")}}>
+            LOS DOCH
+          </button>
             <Button size="lg" onClick={ () => {window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank"); return false;} }>
               Get Started
             </Button>
