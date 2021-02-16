@@ -8,7 +8,7 @@
     "develop": "gatsby develop",
     "clean": "gatsby clean",
     "dev": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build --prefix-paths"
   },
   "dependencies": {
     "gatsby": "^2.18.18",

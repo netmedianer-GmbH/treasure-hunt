@@ -11,7 +11,7 @@ jobs:
         working-directory: ./documentation
         run: |
           npm install
-          npm run build --prefix-paths
+          npm run build
 
       - name: Copy static assets
         run: |
