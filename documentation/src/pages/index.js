@@ -10,7 +10,7 @@ import customerData from '../data/customer-data';
 
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
+    <section id="start" className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
@@ -20,9 +20,9 @@ export default () => (
             Learn how to use Microsoft 365 together with your colleagues in a playful way
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg" onClick={ () => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank")}>Get Started</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Get started with the installation</p>
         </div>
         <div className="lg:w-1/2">
           <img src="./img/sales_seals.png" alt="screenshot" />
@@ -65,7 +65,8 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Internationalization</p>
               <p className="mt-4">
-                Solve tasks together and learn how to use Microsoft 365 in a fun way.
+                Of course, the application is multilingual and you can easily add new language variants 
+                at any time simply by editing the SharePoint list entries.
               </p>
             </Card>
           </div>
@@ -73,8 +74,7 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Viewer Mode</p>
               <p className="mt-4">
-                With a few simple steps you can install the solution even without 
-                administrative rights.
+                Define one team member as the game leader and let her control the gameplay while everyone works together to find the answers.
               </p>
             </Card>
           </div>
@@ -82,8 +82,8 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Flexible By Design</p>
               <p className="mt-4">
-                Simply edit SharePoint lists to modify existing layers or even 
-                create new ones.
+                You want to change the complete design of a game? 
+                Just create your own new images and background graphics and use them in your very own game design.
               </p>
             </Card>
           </div>
@@ -153,9 +153,9 @@ export default () => (
       </div>
     </section> */}
     
-    <section id="testimonials" className="py-20 lg:py-40">
+    <section id="ideas" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">Ideas about the project from the team members</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -166,12 +166,12 @@ export default () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+      <h3 className="text-5xl font-semibold">Ready to start the journey with Treasure Hunt?</h3>
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+      Learn here how easy your journey is from installation to your first Treasure Hunt adventure.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button size="xl" onClick={() => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank")}>Get Started Now</Button>
       </p>
     </section>
   </Layout>
