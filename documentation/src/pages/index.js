@@ -5,10 +5,8 @@ import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-import StatsBox from '../components/StatsBox';
+// import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
-import HeroImage from '../svg/HeroImage';
-import SvgCharts from '../svg/SvgCharts';
 
 export default () => (
   <Layout>
@@ -19,8 +17,7 @@ export default () => (
             Treasure Hunt for Microsoft Teams
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            Learn how to use Microsoft 365 together with your colleagues in a playful way
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
@@ -28,87 +25,118 @@ export default () => (
           <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
         <div className="lg:w-1/2">
-          <HeroImage />
+          <img src="./img/sales_seals.png" alt="screenshot" />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="highlights" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">Highlights</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Learning As A Team</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Solve tasks together and learn how to use Microsoft 365 in a fun way.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">Easy deployment for everyone</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                With a few simple steps you can install the solution even without 
+                administrative rights.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">Easily Create Your Own Content</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Simply edit SharePoint lists to modify existing layers or even 
+                create new ones.
               </p>
             </Card>
           </div>
         </div>
+        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-4">
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Internationalization</p>
+              <p className="mt-4">
+                Solve tasks together and learn how to use Microsoft 365 in a fun way.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Viewer Mode</p>
+              <p className="mt-4">
+                With a few simple steps you can install the solution even without 
+                administrative rights.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8">
+              <p className="font-semibold text-xl">Flexible By Design</p>
+              <p className="mt-4">
+                Simply edit SharePoint lists to modify existing layers or even 
+                create new ones.
+              </p>
+            </Card>
+          </div>
+        </div>   
       </div>
     </section>
     <SplitSection
-      id="services"
+      id="features"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Easy To Use</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+          What you need are just two things: access to Microsoft Teams, and the ability to use Microsoft Power Apps. 
+          So you're not only equipped to learn as you play, but you can also easily set up 
+          Treasure Hunt for yourself and your colleagues.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src="./img/architecture.png" alt="screenshot" />}
     />
     <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Collaborative Learning Included
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+          You will not only learn how to use Microsoft 365 while solving the challenges, 
+          but you will also get the most important insights and information about 
+          further learning content for each challenge.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src="./img/learnings.png" alt="screenshot" />}
     />
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            Become A Game Changer
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            Change the course of the game. Develop your own challenges or even create your own game.
+            Since all the content is stored in simple SharePoint lists, it's easy for you to change it and adapt it to your needs.
+            Be creative.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src="./img/edit_list.png" alt="screenshot" />}
     />
-    <section id="stats" className="py-20 lg:pt-32">
+    
+    {/* <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -123,7 +151,8 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
+    
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>

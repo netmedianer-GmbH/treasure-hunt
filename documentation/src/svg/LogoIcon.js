@@ -1,17 +1,26 @@
 import React from 'react';
 
 const LogoIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-    <path fill="#BEE3F8" d="M44,7L4,23l40,16l-7-16L44,7z M36,23H17l18-7l1,6V23z" />
-    <path
-      fill="#3182CE"
-      d="M40.212,10.669l-5.044,11.529L34.817,23l0.351,0.802l5.044,11.529L9.385,23L40.212,10.669 M44,7L4,23 l40,16l-7-16L44,7L44,7z"
-    />
-    <path
-      fill="#3182CE"
-      d="M36,22l-1-6l-18,7l17,7l-2-5l-8-2h12V22z M27.661,21l5.771-2.244L33.806,21H27.661z"
-    />
-  </svg>
+  <svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" xmlnsSerif="http://www.serif.com/" style={{"fill-rule": "evenodd", "clip-rule": "evenodd", "stroke-miterlimit": 8}}>
+    <g id="Logo" transform="matrix(2.38198,0,0,2.38198,-3.08282,18.355)">
+        <g transform="matrix(1,0,0,1,2.53113,3.53113)">
+            <path d="M1.5,42.5L22.5,0.5L82.5,0.5L103.5,42.5L82.5,84.5L22.5,84.5L1.5,42.5Z" style={{ fill: "rgb(63,71,179)", "fill-rule": "nonzero", stroke: "rgb(112,48,160)", "stroke-width": "0.42px" }} />
+        </g>
+        <g transform="matrix(1,0,0,1,18.5311,9.53113)">
+            <use xlinkHref="#_Image1" x="0" y="0" width="72px" height="72px"/>
+        </g>
+        <g transform="matrix(1,0,0,1,2.53113,-31.0362)">
+            <path d="M67.002,59.596C65.174,59.596 63.651,58.097 63.727,56.222C63.727,54.423 65.25,52.923 67.078,52.923C68.907,52.923 70.43,54.423 70.43,56.222C70.43,57.122 70.049,57.947 69.44,58.547C68.754,59.221 67.916,59.596 67.002,59.596ZM63.727,49.174C62.051,49.774 60.756,51.049 59.919,52.548C58.852,54.573 58.7,56.897 59.538,58.996L63.194,66.794L65.631,71.743C65.86,72.267 66.393,72.567 67.002,72.567C67.612,72.567 68.145,72.267 68.373,71.743L70.811,66.794L74.467,59.071C74.848,58.172 75,57.197 75,56.222C75,50.974 69.516,47 63.727,49.174Z" 
+            style={{fill: "white" }} />
+        </g>
+        <g transform="matrix(1,0,0,1,2.53113,2.53113)">
+            <path d="M50.5,58.225L38.5,52.225L38.5,27.775L50.5,33.775L50.5,58.225ZM35.5,52.225L26.5,56.725L26.5,32.275L35.5,27.775L35.5,52.225ZM77.05,27.025L75.175,31.075L77.5,32.275L77.5,56.725L68.5,52.225L68.5,42.25L65.5,42.25L65.5,52.225L53.5,58.225L53.5,33.775L58.825,31.075L56.95,27.025L52,29.5L37,22L22,29.5L22,64L37,56.5L52,64L67,56.5L82,64L82,29.5L77.05,27.025Z" style={{fill: "white" }}/>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="72px" height="72px" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADkUlEQVR4nO2Zu2sUQRzHP2ouiGAqW9NEY0AFH42N/gMWBl+FBBJSpEif2m2CIUYxCAo2RmPUykLQ0teBjQS1EKNGiEQLUwQ0vjCXxGJndTI3u7NzN7sbj/nAD7Izv8d3v7e7d2zA4/F4PB6Px+PxeJyzrmgBDtgE7ANagRVgBpgEfheoaU2wHbgO/CA0Ro4vwAVgS2HqCuYo8I1qY9T4COwtSGNhHCK8fUzmRLEA7ChEaQGUgPfEm7Ecsz4JbChAb+4cp/rkvwP9wGZgI3AC+KzJO1aA3tyZoPrET2ry9gNLSt5EThoTaQJ6RDRl0P851Q/hOB4ouS8z0JOayJhpSdA07o16xeqTfpaQe1vJfeNQR2p0xqjh0qhHSu+vhD8Udbo+KLllB/NTk8aYLIwKNH0vavLOavLO1DE3NbUY49KodqofvivAQ8Jvsn7gcczc3TXMS40LY2oxqgnoBlqktTs1zLon1beInk6ejWmNWQJuAuPS2rhY033iJqPUuQPS3gFDP10clOoHEuZaIQs0GdMhagJpLxBrHdgZpZv7CWiWtMXdRrp4KtU1i166udbYGBMRUG1QRFqj4qJX6nXYou6IVNebkKdlfdxGDMvALWAncAqYsqidEjW7RI9li9oKsFU6vk/4m8jEa+CudNxK+AE5QXW4TPUVoxJI+YEhN80VVQGuAW2a+u6Euih6NHXtwBNNrjVqgyBFTWCZD3qjloAbhCcTRwmY1eiMYlbkmHQ6vcWyILr1hqS1IaALeJtQtwiMJOyPiJy6WAsGRSzG/J3EFWBOsz4n9upmLRlUCz+B85r1c2Kvbv53gwAuAfPS8Txw2VXzRjBoARiVjkfFmhOyeKlVBMP8e+c87LJxoxj0CzidReNGuMUypVGuoD0iAF6IcEKjXEGdwFURnS4bN4pBmeENMuANMuANMuANMuANMuANMuANMuDSoBKr3x23Ef/K0yWZznVhUAnoA94RviaN6BJrfWRjVFFz/2J6aR8JnNHkqjGTQnCQMMv13ECTa02cQTYCbYySRQeafZdzA02ONWqDwZQCKyJsjZJFB9J6WmNs5g5mYZDpX8YVYAzYJmLMQnBJY5CNMbZzdedSt0FpBKrYGFWWjsuWxtQ6N1ODkgS6EJz3XGtcCKxHcN5zrXEpUMXGqLzmWpOFQJUkwXnPtSZLgSqy4KLm1lScN9FXdRFzPR6Px+PxeDwejycv/gDwXfrEDtXThgAAAABJRU5ErkJggg=="/>
+    </defs>
+</svg>
 );
 
 export default LogoIcon;
