@@ -74,7 +74,7 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Viewer Mode</p>
               <p className="mt-4">
-                Define one team member as the game leader and let her control the gameplay while everyone works together to find the answers.
+                Define one team member as the game leader and let this person control the gameplay while everyone works together to find the answers.
               </p>
             </Card>
           </div>
