@@ -22,7 +22,7 @@ export default () => (
           <p className="mt-8 md:mt-12">
             <Button 
               size="lg" 
-              onClick={ () => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank") }>
+              onClick={ () => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/wiki", "_blank") }>
               Get Started
             </Button>
           </p>
@@ -140,23 +140,6 @@ export default () => (
       secondarySlot={<img src="./img/edit_list.png" alt="screenshot" />}
     />
     
-    {/* <section id="stats" className="py-20 lg:pt-32">
-      <div className="container mx-auto text-center">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
-        </div>
-      </div>
-    </section> */}
-    
     <section id="ideas" className="py-20 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">Ideas about the project from the team members</LabelText>
@@ -175,7 +158,7 @@ export default () => (
       Learn here how easy your journey is from installation to your first Treasure Hunt adventure.
       </p>
       <p className="mt-8">
-        <Button size="xl" onClick={() => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/blob/main/README.md", "_blank")}>Get Started Now</Button>
+        <Button size="xl" onClick={() => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/wiki", "_blank")}>Get Started Now</Button>
       </p>
     </section>
   </Layout>
