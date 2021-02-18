@@ -11,7 +11,7 @@ export default [
     title: 'The power of Microsoft 365',
     content:
       'Treasure Hunt is a great example of the power and flexibility of M365 features when combined.<br>Microsoft Teams, Power Apps and Microsoft Lists merge into a game-changing learning solution<br>for everyone.',
-    customerName: 'Judith Schmitz',
+    customerName: 'Judith Thea Schmitz',
     customerTitle: 'Customer Success Manager, Microsoft',
     customerImage: 'https://media-exp1.licdn.com/dms/image/C4D03AQHET1maN6GViw/profile-displayphoto-shrink_400_400/0/1537168118345?e=1619049600&v=beta&t=JlOrX32ojgH69SnhZNKnWMUq8urpGEqXh2HSTwa2F3M'
   },
