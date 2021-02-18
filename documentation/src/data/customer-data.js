@@ -12,7 +12,7 @@ export default [
     content:
       'Treasure Hunt is a great example of the power and flexibility of M365 features when combined.<br>Microsoft Teams, Power Apps and Microsoft Lists merge into a game-changing learning solution<br>for everyone.',
     customerName: 'Judith Schmitz',
-    customerTitle: 'Microsoft',
+    customerTitle: 'Customer Success Manager, Microsoft',
     customerImage: 'https://media-exp1.licdn.com/dms/image/C4D03AQHET1maN6GViw/profile-displayphoto-shrink_400_400/0/1537168118345?e=1619049600&v=beta&t=JlOrX32ojgH69SnhZNKnWMUq8urpGEqXh2HSTwa2F3M'
   },
   {
@@ -20,7 +20,7 @@ export default [
     content:
       'Having fun supports the learning process.<br><br>When developing the story around the "Treasure Hunt Pirates", we placed particular emphasis not only on the textual elaboration of the story, but also on the visual language and dramaturgy.',
     customerName: 'Sorina Becheru',
-    customerTitle: 'Senior Consultant, netmedia',
+    customerTitle: 'Senior Consultant, netmedianer GmbH',
     customerImage: 'https://media-exp1.licdn.com/dms/image/C5603AQFtJRwR3HgCUQ/profile-displayphoto-shrink_400_400/0/1584353365647?e=1619049600&v=beta&t=wR-lXc2MhkGRQL6GPkKcUSiSmMOGz6gRcDpOXjHMuy4'
   }
 ];
