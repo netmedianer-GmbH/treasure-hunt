@@ -13,7 +13,7 @@ const CustomerCard = ({ customer }) => (
       />
       <div>
         <p>{customer.customerName}</p>
-        <p className="text-sm text-gray-600">{customer.customerTitle}</p>
+        <p className="text-sm text-gray-600" dangerouslySetInnerHTML={{__html: customer.customerTitle}}></p>
       </div>
     </div>
   </Card>
