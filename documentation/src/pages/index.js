@@ -5,7 +5,6 @@ import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-// import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 
 export default () => (
