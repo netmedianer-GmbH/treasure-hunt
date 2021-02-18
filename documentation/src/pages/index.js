@@ -33,7 +33,33 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="highlights" className="py-20 lg:pb-40 lg:pt-48">
+    <section className="py-12">
+    <div className="container mx-auto text-left">
+      <div className="pt-12 px-10 lg:px-24">
+          <p className="mt-2 text-2xl font-semibold leading-relaxed">
+            What this project is about
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            The Treasure Hunt Power App is a project for the simple and playful development of skills and 
+            knowledge in the use of Microsoft 365.
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            With the help of especially developed learning paths, embedded in topic-related stories, the user is introduced to 
+            the effective use of the various solutions in Microsoft 365 with the help of challenges as well as the underlying learning content, 
+            all in the spirit of the gamification approach.
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            Special emphasis was put on the simplest possible installation procedure, so that users without administrative rights 
+            are able to use the application with the least possible licensing requirements.
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            The technical basis is based on the three components Microsoft Teams as the runtime environment, SharePoint Lists as the place of 
+            data storage and Microsoft Power Apps for the creation of the application and the user interface itself.
+          </p>
+        </div>
+        </div>
+    </section>
+    <section id="highlights" className="py-4 lg:pb-40 lg:pt-12">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Highlights</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -100,9 +126,9 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Easy To Use</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          What you need are just two things: access to Microsoft Teams, and the ability to use Microsoft Power Apps. 
-          So you're not only equipped to learn as you play, but you can also easily set up 
-          Treasure Hunt for yourself and your colleagues.
+            What you need are just two things: access to Microsoft Teams, and the ability to use Microsoft Power Apps. 
+            So you're not only equipped to learn as you play, but you can also easily set up 
+            Treasure Hunt for yourself and your colleagues.
           </p>
         </div>
       }
@@ -116,9 +142,9 @@ export default () => (
             Collaborative Learning Included
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-          You will not only learn how to use Microsoft 365 while solving the challenges, 
-          but you will also get the most important insights and information about 
-          further learning content for each challenge.
+            You will not only learn how to use Microsoft 365 while solving the challenges, 
+            but you will also get the most important insights and information about 
+            further learning content for each challenge.
           </p>
         </div>
       }
@@ -142,7 +168,7 @@ export default () => (
     
     <section id="ideas" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">Ideas about the project from the team members</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">Thoughts on the project from the team members</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
