@@ -39,7 +39,7 @@ export default () => (
             What this project is about
           </p>
           <p className="mt-2 text-xl font-light leading-relaxed">
-            The Treasure Hunt Power App is a project for the simple and playful development of skills and 
+            The Treasure Hunt Power App is a game for the simple and playful development of skills and 
             knowledge in the use of Microsoft 365.
           </p>
           <p className="mt-2 text-xl font-light leading-relaxed">
