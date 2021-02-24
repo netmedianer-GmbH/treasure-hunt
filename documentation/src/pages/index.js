@@ -72,7 +72,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Easy deployment for everyone</p>
+              <p className="font-semibold text-xl">Easy Deployment For Everyone</p>
               <p className="mt-4">
                 With a few simple steps you can install the solution even without 
                 administrative rights.
