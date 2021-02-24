@@ -64,15 +64,15 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Learning As A Team</p>
+              <p className="font-semibold text-xl uppercase">Learning As A Team</p>
               <p className="mt-4">
                 Solve tasks together and learn how to use Microsoft 365 in a fun way.
               </p>
             </Card>
           </div>
-          <div className="flex-1 px-3">
+          <div className="flex-1 px-1">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Easy Deployment For Everyone</p>
+              <p className="font-semibold text-xl uppercase -ml-6 -mr-6">Easy Deployment For Everyone</p>
               <p className="mt-4">
                 With a few simple steps you can install the solution even without 
                 administrative rights.
@@ -81,7 +81,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Easily Create Your Own Content</p>
+              <p className="font-semibold text-xl uppercase -ml-6 -mr-6">Easily Create Your Own Content</p>
               <p className="mt-4">
                 Simply edit SharePoint lists to modify existing layers or even 
                 create new ones.
@@ -92,7 +92,7 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-4">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Internationalization</p>
+              <p className="font-semibold text-xl uppercase">Internationalization</p>
               <p className="mt-4">
                 Of course, the application is multilingual and you can easily add new language variants 
                 at any time simply by editing the SharePoint list entries.
@@ -101,7 +101,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Viewer Mode</p>
+              <p className="font-semibold text-xl uppercase">Viewer Mode</p>
               <p className="mt-4">
                 Define one team member as the game leader and let this person control the gameplay while everyone works together to find the answers.
               </p>
@@ -109,7 +109,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Flexible By Design</p>
+              <p className="font-semibold text-xl uppercase">Flexible By Design</p>
               <p className="mt-4">
                 You want to change the complete design of a game? 
                 Just create your own new images and background graphics and use them in your very own game design.

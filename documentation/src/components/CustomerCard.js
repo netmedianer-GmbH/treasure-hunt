@@ -3,7 +3,7 @@ import Card from './Card';
 
 const CustomerCard = ({ customer }) => (
   <Card className="mb-8">
-    <p className="text-xl font-semibold">{customer.title}</p>
+    <p className="text-xl font-semibold uppercase" dangerouslySetInnerHTML={{__html: customer.title}}></p>
     <p className="mt-6" dangerouslySetInnerHTML={{__html: customer.content}}></p>
     <div className="flex items-center mt-8">
       <img

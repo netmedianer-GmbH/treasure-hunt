@@ -17,7 +17,7 @@ export default [
   {
     title: 'Business values meet fun learning',
     content:
-      'Having fun supports the learning process.<br><br>When developing the story around the "Treasure Hunt Pirates", we placed particular emphasis not only on the textual elaboration of the story, but also on the visual language and dramaturgy.<br><br>',
+      'Having fun supports the learning process. When developing the story around the "Treasure Hunt Pirates", we placed particular emphasis not only on the textual elaboration of the story, but also on the visual language and dramaturgy.<br><br>',
     customerName: 'Sorina Becheru',
     customerTitle: 'Senior Consultant<br>netmedianer GmbH',
     customerImage: './img/people/sorina.jpeg'
