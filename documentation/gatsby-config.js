@@ -4,15 +4,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/../../treasure-hunt.wiki/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `img`,
-        path: `${__dirname}/../../treasure-hunt.wiki/img`,
+        name: `wiki`,
+        path: `${__dirname}/src/wiki/`,
       },
     },
     {
