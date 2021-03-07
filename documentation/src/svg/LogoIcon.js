@@ -1,10 +1,10 @@
 import React from 'react';
 
 const LogoIcon = () => (
-    <svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" xmlnsSerif="http://www.serif.com/" style={{ "fill-rule": "evenodd", "clip-rule": "evenodd", "stroke-miterlimit": 8 }}>
+    <svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" style={{ "fillRule": "evenodd", "clipRule": "evenodd", "strokeMiterlimit": 8 }}>
         <g id="Logo" transform="matrix(2.38198,0,0,2.38198,-3.08282,18.355)">
             <g transform="matrix(1,0,0,1,2.53113,3.53113)">
-                <path d="M1.5,42.5L22.5,0.5L82.5,0.5L103.5,42.5L82.5,84.5L22.5,84.5L1.5,42.5Z" style={{ fill: "rgb(63,71,179)", "fill-rule": "nonzero", stroke: "rgb(112,48,160)", "stroke-width": "0.42px" }} />
+                <path d="M1.5,42.5L22.5,0.5L82.5,0.5L103.5,42.5L82.5,84.5L22.5,84.5L1.5,42.5Z" style={{ fill: "rgb(63,71,179)", "fillRule": "nonzero", stroke: "rgb(112,48,160)", "strokeWidth": "0.42px" }} />
             </g>
             <g transform="matrix(1,0,0,1,18.5311,9.53113)">
                 <use xlinkHref="#_Image1" x="0" y="0" width="72px" height="72px" />
