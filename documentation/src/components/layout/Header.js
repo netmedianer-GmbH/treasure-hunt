@@ -3,9 +3,11 @@ import { Link } from "gatsby"
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
+import { globalHistory as history } from '@reach/router';
 
-const Header = () => {
-  const path = window.location.pathname;
+const Header = (props) => {
+  const { location } = history;
+  const path = location.pathname;
 
   return (
     <header className="sticky top-0 bg-white shadow">
