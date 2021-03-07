@@ -17,6 +17,9 @@ const ReleaseFiles = () => {
     return (
         <div className="pt-12 px-10 lg:px-24 text-left">
             <h2 className="text-2xl my-4">Download the latest release files from here</h2>
+            <p className="mt-2 text-lg font-light leading-relaxed">
+                Instead of downloading the installation files from our Github page, you can also download the latest release directly from here.
+            </p>
 
             <h3 className="text-xl my-4">The Microsoft Excel Files</h3>
             <ul className="list-disc text-lg pl-6 py-4">
