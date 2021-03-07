@@ -22,7 +22,7 @@ module.exports = {
                 "paragraph": "mt-2 text-lg font-light leading-relaxed",
                 "image": "p-4",
                 "list": "list-disc text-lg pl-6 py-4",
-                "blockquote": "p-4 italic border-l-4 bg-neutral-100 text-neutral-600 border-neutral-500 quote my-4"
+                "blockquote": "p-4 italic border-l-4 bg-neutral-100 text-neutral-600 border-indigo-800 quote my-4"
               }
             }
           }

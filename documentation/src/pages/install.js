@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout';
 
 import { graphql } from 'gatsby';
 
-const selectedCss = " text-blue-500 border-b-2 font-medium border-blue-500";
+const selectedCss = " text-indigo-500 border-b-2 font-medium border-indigo-600";
 
 export default ({ data }) => {
     const [currentTab, setCurrentTab] = useState(0);
@@ -25,19 +25,19 @@ export default ({ data }) => {
                     <div className="bg-white">
                         <nav className="flex flex-col sm:flex-row px-10">
                             <button onClick={() => setCurrentTab(0)}
-                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none" + (currentTab === 0 ? selectedCss : "") }>
+                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-indigo-800 focus:outline-none" + (currentTab === 0 ? selectedCss : "") }>
                                 { data.allMarkdownRemark.edges[0].node.frontmatter.tab_title }
                             </button>
                             <button onClick={() => setCurrentTab(1)} 
-                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none" + (currentTab === 1 ? selectedCss : "") }>
+                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-indigo-800 focus:outline-none" + (currentTab === 1 ? selectedCss : "") }>
                                 { data.allMarkdownRemark.edges[1].node.frontmatter.tab_title }
                             </button>
                             <button onClick={() => setCurrentTab(2)} 
-                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none" + (currentTab === 2 ? selectedCss : "") }>
+                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-indigo-800 focus:outline-none" + (currentTab === 2 ? selectedCss : "") }>
                                 { data.allMarkdownRemark.edges[2].node.frontmatter.tab_title }
                             </button>
                             <button onClick={() => setCurrentTab(3)} 
-                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none" + (currentTab === 3 ? selectedCss : "") }>
+                                className={ "uppercase text-sm text-gray-600 py-4 px-6 block hover:text-indigo-800 focus:outline-none" + (currentTab === 3 ? selectedCss : "") }>
                                 { data.allMarkdownRemark.edges[3].node.frontmatter.tab_title }
                             </button>
                         </nav>
