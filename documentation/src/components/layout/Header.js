@@ -49,7 +49,7 @@ const Header = (props) => {
                 Features
               </Link>
           }
-          {
+          {/* {
             path === "/" ?
               <AnchorLink className="px-4" href="#ideas">
                 About the Project
@@ -58,8 +58,9 @@ const Header = (props) => {
               <Link className="px-4" to="/#ideas">
                 About the Project
               </Link>
-          }
-          <Link to="/install">Installation</Link>
+          } */}
+          <Link className="px-4" to="/install">Installation</Link>
+          <Link className="px-4" to="/usage">Usage</Link>
         </div>
         <div className="hidden md:block">
           <Button className="text-sm" onClick={() => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/", "_blank")}>View at github</Button>
