@@ -1,36 +1,70 @@
 import React from 'react';
+import { Link } from "gatsby"
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
-const Header = () => (
-  <header className="sticky top-0 bg-white shadow">
-    <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
-      <div className="flex items-center text-2xl">
-        <div className="w-12 mr-3">
-          <LogoIcon />
-        </div>
+const Header = () => {
+  const path = window.location.pathname;
+
+  return (
+    <header className="sticky top-0 bg-white shadow">
+      <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
+        <div className="flex items-center text-2xl">
+          <div className="w-12 mr-3">
+            <LogoIcon />
+          </div>
         Treasure Hunt
       </div>
-      <div className="flex mt-4 sm:mt-0">
-      <AnchorLink className="px-4" href="#start">
-          Start
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#highlights">
-          Highlights
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#features">
-          Features
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#ideas">
-          About the Project 
-        </AnchorLink>
+        <div className="flex mt-4 sm:mt-0">
+          {
+            path === "/" ?
+              <AnchorLink className="px-4" href="#start">
+                Start
+              </AnchorLink>
+              :
+              <Link className="px-4" to="/#start">
+                Start
+              </Link>
+          }
+          {
+            path === "/" ?
+              <AnchorLink className="px-4" href="#highlights">
+                Highlights
+              </AnchorLink>
+              :
+              <Link className="px-4" to="/#highlights">
+                Highlights
+              </Link>
+          }
+          {
+            path === "/" ?
+              <AnchorLink className="px-4" href="#features">
+                Features
+              </AnchorLink>
+              :
+              <Link className="px-4" to="/#features">
+                Features
+              </Link>
+          }
+          {
+            path === "/" ?
+              <AnchorLink className="px-4" href="#ideas">
+                About the Project
+              </AnchorLink>
+              :
+              <Link className="px-4" to="/#ideas">
+                About the Project
+              </Link>
+          }
+          <Link to="/install">Installation</Link>
+        </div>
+        <div className="hidden md:block">
+          <Button className="text-sm" onClick={() => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/", "_blank")}>View at github</Button>
+        </div>
       </div>
-      <div className="hidden md:block">
-        <Button className="text-sm" onClick={ () => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/", "_blank")}>View at github</Button>
-      </div>
-    </div>
-  </header>
-);
+    </header>
+  )
+};
 
 export default Header;

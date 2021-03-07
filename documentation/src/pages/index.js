@@ -1,4 +1,5 @@
 import React from 'react';
+import { navigate } from 'gatsby'; 
 import Button from '../components/Button';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
@@ -21,7 +22,7 @@ export default () => (
           <p className="mt-8 md:mt-12">
             <Button
               size="lg"
-              onClick={() => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/wiki", "_blank")}>
+              onClick={() => navigate("/install")}>
               Get Started
             </Button>
           </p>
@@ -60,7 +61,7 @@ export default () => (
     </section>
     <section id="highlights" className="py-4 lg:pb-40 lg:pt-12">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Highlights</h2>
+        <h2 className="pt-6 text-3xl lg:text-5xl font-semibold">Highlights</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
@@ -187,7 +188,7 @@ export default () => (
       <p className="mt-8">
         <Button
           size="xl"
-          onClick={() => window.open("https://github.com/netmedianer-GmbH/treasure-hunt/wiki", "_blank")}>
+          onClick={() => navigate("/install")}>
           Get Started Now
         </Button>
       </p>
