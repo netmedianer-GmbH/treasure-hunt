@@ -8,9 +8,14 @@ const selectedCss = " text-blue-500 border-b-2 font-medium border-blue-500";
 
 export default ({ data }) => {
     const [currentTab, setCurrentTab] = useState(0);
-    
-
-    console.log(":: ", data);
+        
+    // Patchig the generated md-html
+    const html = data.allMarkdownRemark.edges[currentTab].node.html
+    const r1 = /.\/img\//g;
+    const r2 = /.\/img_user\//g;
+    const patchedHTML = html
+        .replace(r1, "https://raw.githubusercontent.com/wiki/netmedianer-GmbH/treasure-hunt/img/")
+        .replace(r2, "https://raw.githubusercontent.com/wiki/netmedianer-GmbH/treasure-hunt/img_user/");
 
     return <Layout>
         <main className="text-gray-900">
@@ -36,9 +41,10 @@ export default ({ data }) => {
                                 { data.allMarkdownRemark.edges[3].node.frontmatter.tab_title }
                             </button>
                         </nav>
+                        
                         <div
                             className="pt-12 px-10 lg:px-24 text-left"
-                            dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[currentTab].node.html.replaceAll("./img/", "https://raw.githubusercontent.com/wiki/netmedianer-GmbH/treasure-hunt/img/").replaceAll("./img_user/", "https://raw.githubusercontent.com/wiki/netmedianer-GmbH/treasure-hunt/img_user/") }}>
+                            dangerouslySetInnerHTML={{ __html: patchedHTML }}>
                         </div>
                     </div>
                 </section>
