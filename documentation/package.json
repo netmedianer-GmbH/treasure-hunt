@@ -9,7 +9,7 @@
     "clean": "gatsby clean",
     "dev": "gatsby develop",
     "build": "gatsby build --prefix-paths",
-    "copy:docs": "shx cp -R ../../treasure-hunt.wiki/*.md ./src/wiki"
+    "copy:wiki": "shx cp -R ../../treasure-hunt.wiki/*.md ./src/wiki"
   },
   "dependencies": {
     "gatsby": "^2.18.18",
