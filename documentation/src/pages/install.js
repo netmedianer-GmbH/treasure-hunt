@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Layout from '../components/layout/Layout';
+import ReleaseFiles from '../components/ReleaseFiles';
 
 import { graphql } from 'gatsby';
 
@@ -46,6 +47,12 @@ export default ({ data }) => {
                             className="pt-12 px-10 lg:px-24 text-left"
                             dangerouslySetInnerHTML={{ __html: patchedHTML }}>
                         </div>
+                        {
+                            // On tab 0 we also render the downloadable release files
+                            // via the github api
+                            currentTab === 0 &&
+                            <ReleaseFiles />
+                        }
                     </div>
                 </section>
 
