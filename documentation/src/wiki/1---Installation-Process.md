@@ -14,5 +14,3 @@ If you meet the requirements, the installation consists of 2 fairly simple steps
 
 1. import the required project data from Microsoft Excel files into SharePoint lists.
 1. import the Power App and restore the connections to the imported lists.
-
-Let's start with [[1.1   Importing the data]]
