@@ -12,7 +12,7 @@
         "dev": "gatsby develop",
         "start": "gatsby develop",
         "build": "gatsby build --prefix-paths",
-        "serve": "gatsby serve",
+        "serve": "gatsby serve --prefix-paths",
         "clean": "gatsby clean",
         "copy:wiki": "shx cp -R ../../treasure-hunt.wiki/*.md ./src/wiki"
     },
