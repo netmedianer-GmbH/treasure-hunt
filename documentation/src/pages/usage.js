@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 import { graphql } from 'gatsby';
 
-export default ({ data }) => {
+const UsagePage =  ({ data }) => {
     // Patchig the generated md-html
     const html = data.markdownRemark.html;
     const r1 = /.\/img\//g;
@@ -37,3 +37,5 @@ query UsageFilesQuery {
     }
 }
 `;
+
+export default UsagePage;

@@ -7,7 +7,7 @@ import { graphql } from 'gatsby';
 
 const selectedCss = " text-indigo-500 border-b-2 font-medium border-indigo-600";
 
-export default ({ data }) => {
+const InstallPage = ({ data }) => {
     const [currentTab, setCurrentTab] = useState(0);
 
     // Patchig the generated md-html
@@ -78,3 +78,5 @@ query InstallFilesQuery {
   }
   }
 `;
+
+export default InstallPage;

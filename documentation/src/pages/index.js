@@ -8,7 +8,7 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import customerData from '../data/customer-data';
 
-export default () => (
+const IndexPage = () => (
   <Layout>
     <section id="start" className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
@@ -195,3 +195,5 @@ export default () => (
     </section>
   </Layout>
 );
+
+export default IndexPage;

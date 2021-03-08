@@ -20,22 +20,22 @@ const ReleaseFiles = () => {
             <p className="mt-2 text-lg font-light leading-relaxed">
                 Instead of downloading the installation files from our Github page, you can also download the latest release directly from here.
             </p>
-
-            <h3 className="text-xl my-4">The Microsoft Excel Files</h3>
-            <ul className="list-disc text-lg pl-6 py-4">
+ 
+            <h3 className="text-xl mt-4">The Microsoft Excel Files</h3>
+            <ul className="list-disc text-lg pl-6 py-4 ml-4">
             {
-                releases[0]?.assets.map(asset =>
+                releases[0]?.assets.map((asset, idx) =>
                     asset.content_type === "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-                    && <li><a href={asset.browser_download_url}>{asset.name}</a></li>)
+                    && <li key={idx}><a className="no-underline shadow-link" href={asset.browser_download_url}>{asset.name}</a></li>)
             }
             </ul>
 
-            <h3 className="text-xl my-4">The PowerApps Canvas App Import File</h3>
-            <ul className="list-disc text-lg pl-6 py-4">
+            <h3 className="text-xl mt-4">The PowerApps Canvas App Import File</h3>
+            <ul className="list-disc text-lg pl-6 py-4 ml-4">
             {
-                releases[0]?.assets.map(asset =>
+                releases[0]?.assets.map((asset,idx) =>
                     asset.content_type === "application/zip"
-                    && <li><a href={asset.browser_download_url}>{asset.name}</a></li>)
+                    && <li key={idx}><a className="no-underline shadow-link" href={asset.browser_download_url}>{asset.name}</a></li>)
             }
             </ul>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 
-export default () => {
+const ImprintPage = () => {
     return <Layout>
         <main className="text-gray-900">
             <div className="container mx-auto px-8 lg:flex">
@@ -36,3 +36,5 @@ export default () => {
         </main>
     </Layout>;
 };
+
+export default ImprintPage;

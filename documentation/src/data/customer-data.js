@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     title: 'The Gamification Element',
     content: 'The initial idea was to teach how to use Microsoft 365 in a playful way. We started with a PDF version of the Treasure Hunt, where we combined all the different elements of a Gamification approach.<br>The vision grew fast and with this Power App solution, we can now engage the users even more.',
@@ -23,3 +23,5 @@ export default [
     customerImage: './img/people/sorina.jpeg'
   }
 ];
+
+export default data;

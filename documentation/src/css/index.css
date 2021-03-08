@@ -1,0 +1,16 @@
+@tailwind base;
+
+.border-l-4 {
+    border-left-width: 4px;
+}
+
+a {
+    @apply text-primary-default;
+}
+
+a:hover {
+    @apply text-primary-darker;
+}
+
+@tailwind components;
+@tailwind utilities;
