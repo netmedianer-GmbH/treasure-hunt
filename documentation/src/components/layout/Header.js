@@ -17,7 +17,7 @@ const Header = (props) => {
                         Treasure Hunt
                     </div>
                     <button
-                        className="focus:outline-none	md:hidden text-2xl text-purple-800"
+                        className="focus:outline-none	md:hidden text-3xl text-purple-800"
                         onMouseDown={() => setMobileMenuActive(!mobileMenuActive)}
                     >
                         ☰
