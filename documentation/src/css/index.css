@@ -12,5 +12,9 @@ a:hover {
     @apply text-primary-darker;
 }
 
+.active {
+    display: block !important;
+}
+
 @tailwind components;
 @tailwind utilities;
