@@ -16,7 +16,7 @@ const IndexPage = () => (
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
             Treasure Hunt for Microsoft Teams
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
+          <p className="text-xl lg:text-2xl mt-6 font-light lg:mr-2">
             Learn how to use Microsoft 365 together with your colleagues in a playful way
           </p>
           <p className="mt-8 md:mt-12">
@@ -191,6 +191,14 @@ const IndexPage = () => (
           onClick={() => navigate("/install")}>
           Get Started Now
         </Button>
+      </p>
+      
+      <p className="mt-8 text-xl font-light max-w-4xl mx-auto pt-4">
+        For more information on how Teams Treasure Hunt can help you increase 
+        adoption of digital working practices with Microsoft 365 in your organization, visit &nbsp;
+        {
+        // eslint-disable-next-line react/jsx-no-target-blank
+        }<a href="https://netmedia.de/microsoft-teams-treasure-hunt" target="_blank" rel="noopener">netmedia</a>.
       </p>
     </section>
   </Layout>
